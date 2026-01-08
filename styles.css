@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+body{
+      font-family: "Inter", sans-serif;
+}
+    /* <!-- --------------------------------header start---------------------------------- --> */
+
+nav .nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: 34px 0;
+}
+nav .nav-wrapper ul{
+    display: flex;
+    gap: 32px;
+}
+nav .nav-wrapper ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    color: #000000;
+}
+nav .nav-wrapper .btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #469165;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav .nav-wrapper .btn:hover{
+    background:#1881e3;
+    transition: .6s;
+}
+    /* <!-- --------------------------------header start---------------------------------- --> */
+    /* <!-- --------------------------------banner start---------------------------------- --> */
+    #banner{
+        background:url(./images/banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 115px 0 179px 0;
+    }
+     #banner .banner-wrapper{
+        text-align: center;
+     }
+     #banner .banner-wrapper .early{
+       display: flex;
+       justify-content: center;
+       gap: 6px;
+       position: relative;
+     }
+     #banner .banner-wrapper img{
+       position: absolute;
+        left: 580px;
+        bottom: 25px;
+
+     }
+
+     #banner .banner-wrapper button{
+        font-size: 16px;
+        font-weight: 500;
+        color: #469165;
+        background: #FFFFFF;
+        padding: 8px 12px 8px 34px;
+        border-radius: 6px;
+        border: none;
+        margin-bottom: 16px;
+     }
+     #banner .banner-wrapper h1{
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 84px;
+        color: #FFFFFF;
+        max-width: 770px;
+         margin:0 auto;
+          margin-bottom: 18px;
+     }
+     #banner .banner-wrapper span{
+        color: #30B868;
+       
+     }
+     #banner .banner-wrapper p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #FFFFFF;
+        max-width: 690px;
+        margin: auto;
+        margin-bottom: 32px;
+     }
+     #banner .banner-wrapper .btn1{
+       font-size: 16px;
+       color: #FFFFFF;
+       font-weight: 600;
+       background: none;
+       border: 1px solid #FFFFFF;
+       padding: 16px;
+        transition: .6s;
+        
+     }
+     #banner .banner-wrapper .btn1:hover{
+       background: #469165;
+     }
+    /* <!-- --------------------------------banner end---------------------------------- --> */
+    /* <!-- --------------------------------note start---------------------------------- --> */
+    #note{
+        margin-top: 60px;
+    }
+    #note .note-wrapper{
+        text-align: center;
+    }
+    #note .note-wrapper h1{
+        font-size: 48px;
+        font-weight: 700;
+        color: #001931;
+        margin-bottom: 16px;
+    }
+    #note .note-wrapper p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #627382;
+        line-height: 20px;
+        margin-bottom: 42px;
+    }
+    .all-card{
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+    .card1{
+        background: #627382;
+        width: 322px;
+        height: 300px;
+       text-align: center;
+       position: relative;
+        z-index: -1;
+    }
+    .card1 img{
+        margin: 83px 0 16px;
+         
+    }
+    /* .card1::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: #ed4040;
+    border-radius: 50%;
+    position: absolute;
+    top: 65px;
+    left: 115px;
+    } */
+    .all-card .card1 h3{
+        font-size: 24px;
+        font-weight: 600;
+        color: #001931;
+        margin-bottom: 16px;
+    }
+    .all-card .card1 p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #001931;
+        margin-bottom: 16px;
+    }
+
+    /* <!-- --------------------------------note end---------------------------------- --> */
