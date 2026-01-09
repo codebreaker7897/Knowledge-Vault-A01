@@ -173,3 +173,47 @@ nav .nav-wrapper .btn:hover{
     }
 
     /* <!-- --------------------------------note end---------------------------------- --> */
+    /* <!-- --------------------------------Solution start---------------------------------- --> */
+    #Solution{
+        margin-top: 120px;
+    }
+    #Solution .solution-wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        align-items: center;
+    }
+    #Solution .solution-wrapper .right-part h5{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #469165;
+        margin-bottom: 16px;
+    }
+    #Solution .solution-wrapper .right-part h2{
+        font-size: 48px;
+        font-weight: 700;
+        color: #001931;
+        max-width: 516px;
+        margin-bottom: 16px;
+    }
+     #Solution .solution-wrapper .right-part p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #627382;
+        max-width: 445px;
+        margin-bottom: 40px;
+    }
+     #Solution .solution-wrapper .right-part ul li{
+        display: flex;
+        gap: 6px;
+        list-style: none;
+     }
+     #Solution .solution-wrapper .right-part ul li h6{
+          font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #001931;
+     }
+    /* <!-- --------------------------------Solution end---------------------------------- --> */
