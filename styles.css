@@ -29,6 +29,7 @@ nav .nav-wrapper ul li{
     font-weight: 500;
     line-height: 152%;
     color: #000000;
+    cursor: pointer;
 }
 nav .nav-wrapper .btn{
     font-size: 16px;
