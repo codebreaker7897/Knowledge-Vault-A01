@@ -108,7 +108,11 @@ nav .nav-wrapper .btn:hover{
        border: 1px solid #FFFFFF;
        padding: 16px;
         transition: .6s;
-        
+     }
+     #banner .banner-wrapper .btn-active{
+       background: #469165;
+       color: #FFFFFF;
+       border: 2px solid #30B868;
      }
      #banner .banner-wrapper .btn1:hover{
        background: #469165;
@@ -140,34 +144,28 @@ nav .nav-wrapper .btn:hover{
         gap: 24px;
     }
     .card1{
-        background: #627382;
+        background: #f2d3d3;
         width: 322px;
         height: 300px;
        text-align: center;
-       position: relative;
-        z-index: -1;
+        border-radius: 5px;
+     
     }
     .card1 img{
         margin: 83px 0 16px;
          
     }
-    /* .card1::after {
-    content: "";
-    width: 60px;
-    height: 60px;
-    background: #ed4040;
-    border-radius: 50%;
-    position: absolute;
-    top: 65px;
-    left: 115px;
-    } */
     .all-card .card1 h3{
+        width: 274px;
         font-size: 24px;
         font-weight: 600;
         color: #001931;
         margin-bottom: 16px;
     }
     .all-card .card1 p{
+        max-width: 274px;
+        text-align: center;
+        margin-left: 24px;
         font-size: 16px;
         font-weight: 400;
         color: #001931;
